@@ -1,0 +1,28 @@
+html {
+    height: 100%;
+}
+body {
+    width: 1000px;
+    margin: 0 auto;
+    background: linear-gradient(to right, #e5eced 25%, #e5bda7 75%);
+}
+h1, h2, h3 {
+    color: Black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+footer {
+    border-top: 1px solid;
+    margin-top: 20px;
+}
+header {
+    text-align: center;
+}
+nav {
+    font-size: 2rem;
+}
+nav ul {
+    list-style-type: none;
+}
+nav ul li {
+    display: inline-block;
+}
