@@ -10,23 +10,21 @@ h1, h2, h3 {
     color: Black;
     font-family: Arial, Helvetica, sans-serif;
 }
-footer {
-    border-top: 1px solid;
-    margin-top: 20px;
+h1 a {
+    text-decoration: none;
+    color: black;
 }
 header {
-    text-align: center;
+    padding: 20px;
+    display: flex;
+    align-items: center;
 }
 nav {
-    background-color: white;
     font-size: 2rem;
-    display: flex;
-    justify-content: center;
+    margin: auto;
 }
 nav ul {
-    width: 100%;
     list-style-type: none;
-    width: fit-content;
     padding-left: 0;
 }
 nav ul li {
@@ -41,4 +39,32 @@ nav ul li a {
 nav ul li a:hover {
     color: rgb(87, 84, 84);
     box-shadow: 0px 0px 5px 1px rgb(87, 84, 84);
+}
+article div {
+    display: flex;
+    justify-content: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+article div p {
+    text-align: left;
+    max-width: 300px;
+    max-height: 200px;
+    margin-top: 0px;
+}
+#banan {
+    width: 200px;
+    height: 200px;
+    border: 10px solid black;
+}
+article h2 {
+    text-align: center;
+}
+.top {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    background-color: white;
+}
+.destination {
+    border-bottom: 2px solid black;
 }
