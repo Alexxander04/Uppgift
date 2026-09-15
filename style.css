@@ -5,6 +5,9 @@ html {
 body {
     margin: 0 auto;
     background: linear-gradient(to right, #e5eced 25%, #e5bda7 75%);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 h1, h2, h3 {
     color: Black;
@@ -48,14 +51,15 @@ article div {
 }
 article div p {
     text-align: left;
-    max-width: 300px;
+    max-width: 200px;
     max-height: 200px;
     margin-top: 0px;
+    margin-right: 10px;
 }
-#banan {
+#potatis {
     width: 200px;
     height: 200px;
-    border: 10px solid black;
+    border: 5px solid black;
 }
 article h2 {
     text-align: center;
@@ -72,11 +76,34 @@ article h2 {
 aside {
     display: flex;
     justify-content: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 50px;
 }
 aside p {
-    max-width: 300px;
+    text-align: left;
+    max-width: 200px;
+    max-height: 200px;
+    margin-top: 0px;
+    margin-left: 10px;
 }
 aside img {
     height: 200px;
     width: 200px;
+}
+#chips {
+    width: 200px;
+    height: 200px;
+    border: 5px solid black;
+}
+main {  
+    flex: 1;
+}
+footer {
+    background-color: white;
+    width: 100%;
+    box-shadow: 0px 5px 5px 5px rgb(87, 84, 84);
+}
+footer p {
+    padding-left: 10px;
 }
