@@ -64,7 +64,19 @@ article h2 {
     display: grid;
     grid-template-columns: 1fr auto 1fr;
     background-color: white;
+    box-shadow: 0px 0px 15px 1px rgb(87, 84, 84);
 }
 .destination {
     border-bottom: 2px solid black;
+}
+aside {
+    display: flex;
+    justify-content: center;
+}
+aside p {
+    max-width: 300px;
+}
+aside img {
+    height: 200px;
+    width: 200px;
 }
