@@ -1,3 +1,6 @@
+:root {
+    --shadow-color: rgb(87, 84, 84);
+}
 html {
     height: 100%;
     width: 100%;
@@ -40,8 +43,8 @@ nav ul li a {
     padding: 5px;
 }
 nav ul li a:hover {
-    color: rgb(87, 84, 84);
-    box-shadow: 0px 0px 5px 1px rgb(87, 84, 84);
+    color: var(--shadow-color);
+    box-shadow: 0px 0px 5px 1px var(--shadow-color);
 }
 article div {
     display: flex;
@@ -68,7 +71,7 @@ article h2 {
     display: grid;
     grid-template-columns: 1fr auto 1fr;
     background-color: white;
-    box-shadow: 0px 0px 15px 1px rgb(87, 84, 84);
+    box-shadow: 0px 0px 15px 1px var(--shadow-color);
 }
 .destination {
     border-bottom: 2px solid black;
@@ -101,7 +104,7 @@ main {
 footer {
     background-color: white;
     width: 100%;
-    box-shadow: 0px 5px 5px 5px rgb(87, 84, 84);
+    box-shadow: 0px 5px 5px 5px var(--shadow-color);
 }
 footer p {
     padding-left: 10px;
