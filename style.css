@@ -73,21 +73,20 @@ article h2 {
 .destination {
     border-bottom: 2px solid black;
 }
-aside {
+aside div {
     display: flex;
     justify-content: center;
     margin-left: 10px;
     margin-right: 10px;
-    margin-top: 50px;
 }
-aside p {
+aside div p {
     text-align: left;
     max-width: 200px;
     max-height: 200px;
     margin-top: 0px;
     margin-left: 10px;
 }
-aside img {
+aside div img {
     height: 200px;
     width: 200px;
 }
@@ -106,4 +105,7 @@ footer {
 }
 footer p {
     padding-left: 10px;
+}
+aside h2 {
+    text-align: center;
 }
